@@ -1,0 +1,61 @@
+.amount-purpose-page{
+    background-color: white;
+    border: 1px solid rgb(209,219,235);
+}
+.amount-purpose-page .container{
+    padding: 1rem 0.8rem;
+}
+.text{
+    font-size: 14px;
+    color: rgb(117,129,142);
+}
+input{
+    border-radius: 3px;
+    border: 1px solid rgb(202,202,202);
+    font-size: 14px;
+    padding: 0.3rem;
+    width: 100%;
+    color: rgb(117,129,142);
+}
+input:focus{
+    outline: none;
+    border-color: rgb(52,129,189);
+}
+.wrapper{
+    margin-bottom: 1.5rem;
+}
+.wrapper input{
+    margin-top: 0.4rem;
+}
+.input-wrapper{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.input-wrapper input{
+    padding-left: 1.8rem;
+}
+.rupee-container{
+    position: absolute;
+    top: 7px;
+    left: 1px;
+    width: 20px;
+    height: 78%;
+    border-right: 1px solid rgb(202,202,202);
+    padding: 0.3rem;
+    background: rgb(238,238,238);
+}
+.btn{
+    background: rgb(47,190,109);
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 5px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

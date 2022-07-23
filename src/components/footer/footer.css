@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: center;
+    margin-top: 1.3rem;
+}
+.footer-txt{
+    font-size: 15px;
+    color: rgb(144,160,169);
+}
+.footer img{
+    width: 90px;
+    cursor: pointer;
+}
